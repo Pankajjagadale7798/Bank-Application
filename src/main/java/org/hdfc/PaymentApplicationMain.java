@@ -73,7 +73,7 @@ public class PaymentApplicationMain {
                 System.out.println("Enter amount");
                 double amount = scanner.nextDouble();
                 paymentService.withdrawAmount(list, amount);
-                System.out.println(list.getUsername());
+                System.out.println(list.getUsername()+" is ");
                 System.out.println("After Balance" + list.getBalance());
 
             }
