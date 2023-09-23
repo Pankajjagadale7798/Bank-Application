@@ -70,10 +70,10 @@ public class PaymentApplicationMain {
                 System.out.println();
             }
             if (choice == 2) {
-                System.out.println("Enter amount");
+                System.out.println("Enter amount: ");
                 double amount = scanner.nextDouble();
                 paymentService.withdrawAmount(list, amount);
-                System.out.println(list.getUsername()+" is: ");
+                System.out.println("Username: " + list.getUsername() + " is ");
                 System.out.println("After Balance" + list.getBalance());
 
             }
