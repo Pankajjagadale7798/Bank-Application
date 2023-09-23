@@ -1,11 +1,9 @@
 package org.hdfc;
 
-import org.hdfc.service.Account;
 import org.hdfc.service.PaymentService;
 import org.hdfc.service.PaymentServiceImpl;
-import org.hdfc.service.User;
+import org.hdfc.model.User;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class PaymentApplicationMain {

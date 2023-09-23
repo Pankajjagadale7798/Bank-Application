@@ -1,4 +1,4 @@
-package org.hdfc.service;
+package org.hdfc.model;
 
 public class User {
     //encapsulation

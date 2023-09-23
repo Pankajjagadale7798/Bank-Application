@@ -1,5 +1,7 @@
 package org.hdfc.service;
 
+import org.hdfc.model.User;
+
 public interface PaymentService {
     //TODO- add methods
     //public String getUserAuthentication();
