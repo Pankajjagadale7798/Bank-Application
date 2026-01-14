@@ -6,6 +6,7 @@ public class User {
     private String username;
     private String password;
     private double balance;
+    private int id2;
 
     public User(int id, String username, String password, double balance) {
         this.id = id;
